@@ -30,10 +30,10 @@ const Starw = () => {
 
     return (
         <div className={'row'}>
-            <div className="col-6">
+            <div className="col-6 offset-3">
                 <div className="d-flex">
                     <button onClick={decNumber} className={'btn btn-danger'}> - </button>
-                    <input type="number" onChange={handleInput} value={id} className={'form-control'}/>
+                    <input type="number" onChange={handleInput} value={id} />
                     <button onClick={incNumber} className={'btn btn-success'}> + </button>
                 </div>
                 <div>{user}</div>
